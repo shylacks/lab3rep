@@ -5,6 +5,9 @@
   "repository": "https://github.com/shylacks/lab3rep.git",
   "author": "Piotr Szylak <taskercio@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha --exit"
+  },
   "dependencies": {
     "chai": "^4.3.4",
     "chai-http": "^4.3.0",
