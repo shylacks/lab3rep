@@ -3,6 +3,6 @@ WORKDIR /opt/app
 COPY package.json ./
 RUN yarn install
 COPY ./ ./
-RUN node index.js
 
+CMD ["npm", "start"]
 EXPOSE 8080
