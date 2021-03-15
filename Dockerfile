@@ -1,6 +1,6 @@
 FROM node:alpine as build-deps
 WORKDIR /opt/app
-COPY package.json yarn.lock ./
+COPY package.json ./
 RUN yarn install
 COPY ./ ./
 RUN node index.js
