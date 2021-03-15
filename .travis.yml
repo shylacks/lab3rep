@@ -8,5 +8,5 @@ node_js:
 
 before_install:
   - docker build -t travisprod -f Dockerfile .
-  - docker run -d -p 5000:8080 travisdev
+  - docker run -d -p 5000:8080 travisprod
   - docker ps -a
